@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    background-image: url(nba2k24.jpg);
+    background-size: cover;
+}
+
+.mangkanor {
+    width: 30%;
+    height: 20%;
+    margin-top: 13%;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3pc;
+    background-color: rgba(138, 43, 226, 0.5);
+    /* Violet background with transparency */
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* Apply blur to the backdrop */
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000ee;
+}
+
+select, input[type="number"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ec2657;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff006a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8f26d4;
+    /* Scale the button slightly on hover */
+    transform: scale(1.05);
+    /* Adjust the box shadow on hover for a lift effect */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+#result {
+    font-weight: bold;
+    color: #080d11;
+}
